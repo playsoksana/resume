@@ -1,0 +1,180 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Montserrat;
+ 
+}
+.sidebar li {
+  color: #f8f8f5;
+}
+h3 {
+  color: rgb(0, 0, 0);
+}
+.wrapper {
+  background-color: rgb(247, 241, 241);
+  display: flex;
+  max-width: 1290px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+.sidebar {
+  width: 600px;
+  background-color: #104b37;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.foto {
+  width: 100%;
+}
+.contacts-container {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 60px;
+}
+.sidebar-title {
+  font-size: 22px;
+  font-weight: 700;
+  
+  color: #fff;
+  margin-bottom: 20px;
+}
+.contacts-list li {
+  list-style: none;
+}
+.contacts-country {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+
+}
+.contacts-icon {
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
+  fill: #fff;
+}
+.contacts-link {
+  color: #5a78e4;
+  font-size: 14px;
+  font-weight: 400;
+ 
+}
+.skills-container {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 55px;
+}
+
+.skills {
+  font-size: 14px;
+  font-weight: 400;
+
+  color: #fff;
+  margin-left: 15px;
+}
+
+.about-me {
+  padding: 60px;
+  max-width: 850px;
+}
+.about-me-main-info {
+  margin-bottom: 40px;
+}
+.name {
+  font-size: 45px;
+  font-weight: 700;
+
+  margin-bottom: 23px;
+}
+.profession {
+  font-size: 25px;
+  font-weight: 700;
+
+  margin-bottom: 23px;
+}
+.information {
+  font-size: 14px;
+  font-weight: 400;
+
+}
+.information-section {
+  margin-bottom: 55px;
+}
+.information-title {
+  font-size: 22px;
+  font-weight: 700;
+
+  margin-bottom: 10px;
+}
+.number-information {
+  font-size: 14px;
+  font-weight: 700;
+
+  margin-left: 17px;
+  margin-bottom: 15px;
+}
+.number-information:last-child {
+  margin-bottom: 0px;
+}
+.projects-item-container {
+  display: flex;
+}
+
+
+.projects-item-container > h3 {
+  margin-right: 10px;
+  min-width: 130px;
+}
+.project-name {
+  color: #104b37;
+  font-weight: 700;
+}
+.projects {
+  font-size: 14px;
+  font-weight: 400;
+ 
+  color: #363535;
+}
+.projects-text {
+  color: #363535;
+  font-size: 14px;
+  font-weight: 400;
+ 
+}
+.company {
+  font-size: 16px;
+  font-weight: 700;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.profession-item {
+  font-size: 16px;
+  font-weight: 700;
+ margin-bottom: 10px;
+  color: #104b37;
+}
+.profession-time {
+  color: #363535;
+  font-size: 14px;
+  font-weight: 400;
+  
+  margin-bottom: 14px;
+}
+.education {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-weight: 700;
+  
+  color: #104b37;
+}
+
+.responsibilities {
+  color: rgb(0, 0, 0);
+  font-weight: 300;
+}
