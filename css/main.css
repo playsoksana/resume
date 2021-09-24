@@ -367,7 +367,7 @@ img {
 }
 
 .sidebar {
-  background: #1d466c;
+  background: #577693;
   min-width: 320px;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -850,6 +850,11 @@ img {
   font-size: 14px;
   font-weight: 400;
   line-height: 1.5;
+}
+
+.my-photo {
+  display: block;
+  height: 400px;
 }
 
 @media print {
