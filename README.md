@@ -1,2 +1,1 @@
-# my-resume
-My resume
+# credit-expert-cv

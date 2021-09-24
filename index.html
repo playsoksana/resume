@@ -3,275 +3,327 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Plyas Oksana resume</title>
-    <link rel="normalize" href="./css/modern-normalize.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Plyas</title>
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"> -->
   </head>
   <body>
     <!--main container-->
-    <section class="wrapper">
-      <div class="sidebar">
-        <img
-          class="foto"
-          src="#" 
-          alt="Plyas Oksana"
-        />
+    <div class="wrapper">
+      <aside class="sidebar">
+        <div class="info-mob">
+          <h1 class="name-mob">Plyas Oksana</h1>
+          <h2 class="profession-mob">Front-End Developer</h2>
+          <p class="personal-mob">
+            DOB: 27-09-1984 <span class="profession-divider-mob">|</span> Reside
+            in Kherson <span class="profession-divider-mob">|</span>
+            Citizenship: Ukraine
+          </p>
+        </div>
+        <img class="my-photo" src="./img/photo-1.jpg" alt="My photo" />
 
-        <!--Contacts container-->
+        <!--contacts container-->
         <div class="contacts-container">
-          <h3 class="sidebar-title">Contacts</h3>
-          <ul class="contacts-list">
-            <li>
-              <svg class="contacts-icon">
-                <use href="./images/symbol-defs.svg#icon-address-book"></use>
-              </svg>
-              <span class="contacts-country">Kherson, Ukraine</span>
-            </li>
-            <li>
-              <svg class="contacts-icon">
-                <use href="./images/symbol-defs.svg#icon-mobile"></use>
-              </svg>
-              <a class="contacts-link" href="tell:+380993110353"
-                >+38 (099) 311-03-53</a
-              >
-            </li>
-            <li>
-              <svg class="contacts-icon">
-                <use href="./images/symbol-defs.svg#icon-mail"></use>
-              </svg>
-              <a
-                class="contacts-link"
-                href="mailto:playsoksana@gmail.com"
-                >playsoksana@gmail.com</a
-              >
-            </li>
-            <li>
-              <svg class="contacts-icon">
-                <use href="./images/symbol-defs.svg#icon-github"></use>
-              </svg>
-              <a class="contacts-link" href="https://github.com/playsoksana"
-                >https://github.com/playsoksana</a
-              >
-            </li>
-            <li>
-              <svg class="contacts-icon">
-                <use href="./images/symbol-defs.svg#icon-linkedin"></use>
-              </svg>
-              <a
-                class="contacts-link"
-                href="www.linkedin.com/in/plyas"
-                >www.linkedin.com/in/plyas</a
-              >
-            </li>
-            
-          </ul>
+          <h3 class="contacts-title">Contacts</h3>
+          <div class="contact-block">
+            <!-- <span class="contacts-link-type">Т:</span> -->
+
+            <a class="contacts-link" href="tel:+380993110353">
+              <svg class="icon-contacts" width="20" height="20">
+                <use class="icon" href="./img/sprite.svg#icon-phone"></use></svg>+38 (099) 311-03-53
+            </a>
+          </div>
+          <div class="contact-block">
+            <!-- <span class="contacts-link-type">Е:</span> -->
+            <a class="contacts-link" href="mailto:playsoksana@gmail.com">
+              <svg class="icon-contacts" width="20" height="20">
+                <use class="icon" href="./img/sprite.svg#icon-email"></use></svg>playsoksana@gmail.com
+            </a>
+          </div>
+          <div class="contact-block">
+            <!-- <span class="contacts-link-type">G:</span> -->
+            <a
+              class="contacts-link"
+              href="https://github.com/playsoksana"
+              target="_blank"
+            >
+              <svg class="icon-contacts" width="20" height="20">
+                <use
+                  class="icon"
+                  href="./img/sprite.svg#icon-github"
+                ></use></svg              >github.com/playsoksana/</a>
+          </div>
+          <div class="contact-block">
+            <!-- <span class="contacts-link-type">L:</span> -->
+            <a
+              class="contacts-link start"
+              href="www.linkedin.com/in/plyas"
+              target="_blank"
+            >
+              <svg class="icon-contacts start" width="20" height="20">
+                <use
+                  class="icon"
+                  href="./img/sprite.svg#icon-linkedin"
+                ></use></svg              >linkedin.com/in/plyas</a
+            >
+          </div>
         </div>
-        <!--Tech skills container-->
+
+        <!-- skills container-->
         <div class="skills-container">
-          <h3 class="sidebar-title">Tech Skills</h3>
-          <ul>
+          <h3 class="skills-title">Technical Skills</h3>
+          <ul class="skills-list">
             <li class="skills-item">
-              <p class="skills">Scrum</p>
+              <span class="skills-text">HTML5/CSS3/SASS</span>
             </li>
             <li class="skills-item">
-              <p class="skills">Agile</p>
+              <span class="skills-text">JavaScript</span>
             </li>
             <li class="skills-item">
-              <p class="skills">HTML</p>
+              <span class="skills-text">React.js</span>
             </li>
             <li class="skills-item">
-              <p class="skills">CSS3</p>
+              <span class="skills-text">React router</span>
             </li>
             <li class="skills-item">
-              <p class="skills">GIT</p>
+              <span class="skills-text">Redux</span>
             </li>
             <li class="skills-item">
-              <p class="skills">WebPack</p>
+              <span class="skills-text">GIT</span>
             </li>
             <li class="skills-item">
-              <p class="skills">JavaScript</p>
+              <span class="skills-text">WebPack/Parcel</span>
             </li>
             <li class="skills-item">
-              <p class="skills">React.js</p>
+              <span class="skills-text">Node.js - in progress</span>
             </li>
             <li class="skills-item">
-              <p class="skills">Node.js - in progress</p>
+              <span class="skills-text">Scrum</span>
+            </li>
+            <li class="skills-item">
+              <span class="skills-text">Agile</span>
             </li>
           </ul>
         </div>
-        <!-- Soft skills container -->
+
+        <!--soft skills container-->
         <div class="skills-container">
-          <h3 class="sidebar-title">Soft Skills</h3>
-          <ul>
+          <h3 class="skills-title">Soft Skills</h3>
+          <ul class="skills-list">
             <li class="skills-item">
-              <p class="skills">Teamwork</p>
+              <span class="skills-text">Teamwork</span>
             </li>
             <li class="skills-item">
-              <p class="skills">Stress tolerance</p>
+              <span class="skills-text">Proactive</span>
             </li>
             <li class="skills-item">
-              <p class="skills">Self-motivation</p>
-            </li>
-            <li class="skills-item">
-              <p class="skills">Responsibility</p>
-            </li>
-            <li class="skills-item">
-              <p class="skills">Time management</p>
+              <span class="skills-text">Extreme self-motivation</span>
             </li>
           </ul>
         </div>
-        <!-- Languages container-->
+
+        <!--languages container-->
         <div class="skills-container">
-          <h3 class="sidebar-title">Languages</h3>
-          <ul>
+          <h3 class="skills-title">Languages</h3>
+          <ul class="skills-list">
             <li class="skills-item">
-              <p class="skills">Ukrainian - native</p>
+              <span class="skills-text">Ukrainian..........[Native]</span>
             </li>
             <li class="skills-item">
-              <p class="skills">Russian - native</p>
+              <span class="skills-text"
+                >Russian...............[Native]</span
+              >
             </li>
             <li class="skills-item">
-              <p class="skills">English - elementary</p>
+              <span class="skills-text"
+                >English................[Elementary]</span
+              >
             </li>
           </ul>
         </div>
-      </div>
+
+        <!--hobby container-->
+        <div class="skills-container">
+          <h3 class="skills-title">Interests</h3>
+          <ul class="skills-list">
+            <li class="skills-item">
+              <span class="skills-text">Social activity</span>
+            </li>
+            <li class="skills-item">
+              <span class="skills-text">Self-development</span>
+            </li>
+          </ul>
+        </div>
+      </aside>
 
       <!--about me container-->
-      <div class="about-me">
+      <div class="about-me-container">
         <!--about me main info-->
-        <div class="about-me-main-info">
-          <h1 class="name">Plyas Oksana</h1>
-          <h2 class="profession">Front-End Developer</h2>
+        <div class="info-container">
+          <div class="info-tablet">
+            <h1 class="name">Oksana Plyas</h1>
+            <p class="personal">
+              DOB: 27-08-1984
+              <span class="profession-divider profession-divider-personal"
+                >|</span
+              >
+              Reside in Kherson
+              <span class="profession-divider profession-divider-personal"
+                >|</span
+              >
+              Citizenship: Ukraine
+            </p>
+            <h2 class="profession">Front-End Developer</h2>
+          </div>
 
-          <p class="information">
-            I am a Front-End developer looking for a permanent position in a manufacturing company that aims to create high-quality products. 
-            I have practical experience of participating in non-commercial development using Agile and Scrum methodology when working in a team.
-            I am ready to solve complex tasks, I take a responsible approach not only to solving tasks but also to their deadlines.
-          </p>
+          <p class="description">I am a Front-End developer looking for a permanent position in a manufacturing company that aims to create high-quality products.</p>
+            <p class="description"> I have practical experience of participating in non-commercial development using Agile and Scrum methodology when working in a team.</p>
+            <p class="description">I am ready to solve complex tasks, I take a responsible approach not only to solving tasks but also to their deadlines.</p>
+            
+
+ 
         </div>
 
         <!--projects container-->
-        <section class="information-section">
-          <h3 class="information-title">Projects</h3>
-          <ul>
-            <li class="number-information">
-              <div class="projects-item-container">
-                <h3>Project name:</h3>
-                <p class="project-name">Ice Cream</p>
-              </div>
-              <div class="projects-item-container">
-                <h3>Project link:</h3>
-                <a
-                  class="contacts-link"
-                  href="https://github.com/Anatoliy-Mostovoy/IceCream"
-                  >https://github.com/Anatoliy-Mostovoy/IceCream
-                </a>
-              </div>
-              <div class="projects-item-container">
-                <h3>Technologies:</h3>
-                <p class="projects-text">HTML5, CSS3, SASS, JS, Parcel, GIT</p>
-              </div>
-              <div class="projects-item-container">
-                <h3>My position:</h3>
-                <p class="projects-text">Front-End Developer</p>
-              </div>
-              <div class="projects-item-container">
-                <h3>My tasks:</h3>
-                <p class="projects-text">
-                  Layout of sections: Hero, All buttons,  A modal pop-up with a cow,  A modal pop-up - buy now
-                </p>
-              </div>
-              <h3>About project:</h3>
-              <p class="projects-text">
-                A website with a responsive layout
-              </p>
-            </li>
-            <li class="number-information">
-              <div class="projects-item-container">
-                <h3>Project name:</h3>
-                <p class="project-name">Filmoteka</p>
-              </div>
-              <div class="projects-item-container">
-                <h3>Project link:</h3>
-                <a
-                  class="contacts-link"
-                  href="https://github.com/Anatoliy-Mostovoy/Filmoteka2021"
-                  >https://github.com/Anatoliy-Mostovoy/Filmoteka2021
-                </a>
-              </div>
-              <div class="projects-item-container">
-                <h3>Technologies:</h3>
-                <p class="projects-text">HTML5, CSS3, SASS, JS, Parcel, GIT</p>
-              </div>
-              <div class="projects-item-container">
-                <h3>My position:</h3>
-                <p class="projects-text">Front-End Developer</p>
-              </div>
-              <div class="projects-item-container">
-                <h3>My tasks:</h3>
-                <p class="projects-text">Header, Positioning and styling pages if the library is empty,  A modal pop-up - cat, Modal pop-ups - team and registration form </p>
-              </div>
-              <h3>About project:</h3>
-              <p class="projects-text">
-                A website with a responsive layout. The ability to register and create your own selection of films.
-              </p>
-            </li>
-          </ul>
-        </section>
-
-        <!-- Work Experience -->
-        <section class="information-section">
-          <h3 class="information-title">Work Experience</h3>
-          <!--company 1-->
-          <h4 class="company">Ltd. "Group Companies" Sodruzhestvo"</h4>
-          <ul>
-            <li class="number-information">
-              <p class="profession-item">Quality manager</p>
-              <span class="profession-time">2017 - up to now</span>
-              <ul class='responsibilities'>
-                <li>development and implementation of food safety system documentation in accordance with the requirements of international standards;</li>
-                <li>validation and verification of production processes;</li>
-                <li>internal audit of divisions;</li>
-                <li>development and implementation of labor protection and fire safety measures;</li>
-                <li>preparation and passing of audits by the 2nd and 3rd parties, state inspections.</li>
-              </ul>
-              </li>          
-          </ul>
-        </section>
-        <!-- Education container -->
-        <section>
-          <h3 class="information-title">Education</h3>
-          <ul>
-            <li class="number-information">
-              <h3 class="company">IT School GoIT</h3>
-              <p class="education">Full stack developer</p>
-              <span class="profession-time"
-                >November 2020 - up to now
-                <span class="line-in-time">|</span>
-                Ukraine
-              </span>
-            </li>
-            <li class="number-information">
-              <h3 class="company">
-                Kherson Institute of Economics and Law.
-              </h3>
-              <p class="education">
-                Specialty accounting and audit
-              </p>
-              <span class="profession-time"
-                >2005 - 2010
-                <span class="line-in-time">|</span>
-                Ukraine</span
+        <div class="projects-container">
+          <h3 class="about-me-title">Project experience</h3>
+          <ol class="projects-list">
+            <li class="projects-item">
+              <a
+                class="projects-link"
+                href="https://anatoliy-mostovoy.github.io/IceCream/"
+                target="_blank"
+                >Ice Cream</a
               >
+              <span class="dots">............................</span>
+              <span class="link-description"
+                ><b>[</b
+                ><span class="tech-name"
+                  >HTML5, CSS3, SASS, JS, Parcel, GIT</span
+                ><b>]</b></span
+              >
+              <p class="about-project">
+                <span class="about">About project:</span> mobile-first adaptive and responsive landing page to introduce ice cream products and attract clients.
+              </p>
+              <p class="about-project">
+                <span class="about">My tasks:</span> The layout of sections: Hero, All buttons, A modal pop-up with a cow, A modal pop-up - buy now
+              </p>
+              <p class="about-project">
+                <span class="about">My role:</span> Front-End developer.
+              </p>
             </li>
-          </ul>
-        </section>
+            <li class="projects-item">
+              <a
+                class="projects-link"
+                href="https://anatoliy-mostovoy.github.io/Filmoteka2021/"
+                target="_blank"
+                >Filmoteka</a
+              >
+              <span class="dots">.............................</span>
+              <span class="link-description"
+                ><b>[</b
+                ><span class="tech-name"
+                  >HTML5, SASS, JS, Parcel, GIT, Handlebars, RestApi, Local Storage</span
+                ><b>]</b></span
+              >
+              <p class="about-project">
+                <span class="about">About project:</span> A website with a responsive layout. The ability to register and create your own selection of films
+              </p>
+              <p class="about-project">
+                <span class="about">My tasks:</span> Header, Positioning and styling pages if the library is empty, A modal pop-up - cat, Modal pop-ups - team and registration form
+              </p>
+              <p class="about-project">
+                <span class="about">My role:</span> Front-End developer.
+              </p>
+            </li>
+            </ol>
+        </div>
+
+        <!--work experience-->
+        <div class="projects-container">
+          <h3 class="about-me-title">Work experience</h3>
+
+          <!--company 1-->
+          <div>
+            <h4 class="profession-title">
+              Quality manager
+                          </h4>
+                          <h4 class="profession-title">
+                            Ltd. "Group Companies" Sodruzhestvo"
+                            Processing and blending of honey
+                                        </h4>
+            <span class="profession-time">
+              
+              2017 - up to now <span class="profession-divider">|</span> Kherson
+            </span>
+            <ul class="profession-duties">
+              <li class="profession-duties-item">
+                development and implementation of food safety system documentation in accordance with the requirements of international standards;
+              </li>
+              <li class="profession-duties-item">
+                validation and verification of production processes;
+              </li>
+              <li class="profession-duties-item">
+                internal audit of divisions;
+              </li>
+              <li class="profession-duties-item">
+                development and implementation of labor protection and fire safety measures;
+              </li>
+
+              <li class="profession-duties-item">
+                preparation and passing of audits by the 2nd and 3rd parties, state inspections.
+              </li>
+            </ul>
+          </div>
+
+                <!--education-->
+        <div class="projects-container">
+          <h3 class="about-me-title">Education</h3>
+
+          <!--education 1-->
+          <div>
+            <h4 class="profession-title">
+              Economist. Kherson Institute of Economics and Law.
+            </h4>
+            <ul class="education-duties">
+              <li class="profession-duties-item">
+                <p>
+                  Specialty accounting and audit | 2003 - 2008<span class="dots"> ...................... </span>
+                    <span class="link-description"
+                    ><b>[</b><span class="tech-name">Specialist</span
+                    ><b>]</b></span
+                  >
+                </p>
+              </li>
+           
+            </ul>
+            <span class="profession-time"
+              >2003 - 2008 <span class="profession-divider">|</span> Kherson</span
+            >
+          </div>
+        </div>
+
+
+
+        <!--additional education-->
+        <div class="projects-container">
+          <h3 class="about-me-title">Additional Education</h3>
+
+          <!--education 1-->
+          <div>
+            <h4 class="profession-title">
+          
+                IT School GoIT
+            </h4>
+            <p class="education-duties">Full Stack Developer</p>
+            <span class="profession-time"
+              >2020 - 2021 <span class="profession-divider">|</span> Kyiv</span
+            >
+          </div>
+
+          
+
       </div>
-    </section>
+    </div>
   </body>
 </html>
