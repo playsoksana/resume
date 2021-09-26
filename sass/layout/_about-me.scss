@@ -1,6 +1,6 @@
 .about-me-container {
   padding: 50px 30px 50px 30px;
-  
+
   @media screen and (max-width: 767px) {
     padding-left: calc((100vw - 320px) / (480 - 320) * (40 - 30) + 30px);
     padding-right: calc((100vw - 320px) / (480 - 320) * (40 - 30) + 30px);
@@ -208,4 +208,3 @@
   display: block;
   height: 400px;
 }
-
